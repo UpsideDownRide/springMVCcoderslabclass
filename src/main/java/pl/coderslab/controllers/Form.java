@@ -14,7 +14,7 @@ public class Form {
     @GetMapping("/form")
     public String returnForm(){
         log.debug("Returning form.jsp");
-        return "/form.jsp";
+        return "form";
     }
 
     @PostMapping("/form")

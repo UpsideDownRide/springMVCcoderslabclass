@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 public class Home {
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String hello() {
-        log.debug("From hello");
-        return "hello.jsp";
+        log.debug("Returning index");
+        return "index";
     }
 
 }
